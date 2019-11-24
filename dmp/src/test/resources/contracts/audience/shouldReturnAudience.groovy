@@ -5,7 +5,7 @@ import org.springframework.cloud.contract.spec.Contract
 Contract.make {
     name 'should return audience'
     request {
-        method 'get'
+        method 'GET'
         url '/rest/audiences/c8937bbe-bfbf-4200-90d5-d23313d6ac4c'
     }
     response {
